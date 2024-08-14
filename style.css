@@ -20,8 +20,9 @@ body {
 }
 
 .active-tool {
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 9px;
+    left: 5px;
 }
 
 .active-tool > span {
@@ -61,6 +62,10 @@ body {
 
 .fa-fill-drip {
     cursor: default;
+}
+
+.fa-undo-alt:hover, .fa-trash-alt:hover {
+    color: rgb(223, 37, 37);
 }
 
 .brush {
